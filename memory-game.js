@@ -90,6 +90,8 @@ function newGame() {
   newGameBtn.addEventListener("click", restart);
   newGameBtn.addEventListener("click", function() {
      modal.style.display = "none";
+     //start the timer after "Play Again" button
+     startTimer();
      
   });
  
